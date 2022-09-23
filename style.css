@@ -6,20 +6,13 @@
     padding: 0;
 }
 
-.header-container{
-    background-color: white;
-    border: solid black;
-    
+.client{
+    color: black;
+    font-weight: bold;
 }
 
-.list{
-    display: inline;
-    margin: 20px;
-    font-family: 'Rampart One', cursive;
-    font-size: 20px;
-    color: #87AAAA;
-}
-.container{
-    text-align: center;
-    margin: 30px;
+.icon{
+    width: 40px;
+    height: 40px;
+    float: right;
 }
