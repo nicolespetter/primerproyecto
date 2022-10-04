@@ -10,6 +10,35 @@
     padding: 0;
 }
 
+/*Inicio general*/
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: black
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+/*Fin general*/
+
+/*Inicio index*/
 .client{
     color: black;
     font-weight: bold;
@@ -20,7 +49,9 @@
     height: 40px;
     float: right;
 }
+/*Fin index*/
 
+/*Inicio nosotros*/
 .main-container{
     background-image:url(imagenes/background.water.jpg);
     height: 900px;
@@ -35,13 +66,71 @@
     font-size: 25px;
    
 }
+/*Fin nosotros*/
 
-
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+/*Inicio productos*/
+.main-item{
+    width: 300px;
+    height: 350px;
     text-align: center;
+    margin: 60px;
+    border-radius: 30px;
+    
 }
+.div-container{
+    display: grid;
+    margin:auto;
+    width: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #E8DFCA;
+}
+/*Fin productos*/
+
+/*Inicio contacto*/
+.button-1{
+    background-color: #E8DFCA;
+    color: black;
+    border: solid 1px black;
+}
+
+.a1{
+    color: black;
+}
+
+.main-conteiner2{
+    background-image: url(imagenes/background.water.jpg);
+    width: auto;
+    height: 900px;
+   
+}
+
+
+
+.label-container{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.container-text{
+    border: solid black 1px;
+    height: 100px;
+    width: 500px;
+}
+/*Fin contacto*/
+
+/*Inicio quiero ser cliente*/
+.form-container{
+    margin: 25px;
+    
+    }
+/*Fin quiero ser clinte*/
+
+/*Responsive Nosotros mobile*/
 
 @media only screen and (max-width:450px) {
     .main-container {
@@ -62,6 +151,8 @@ h1{
 }
 }
 
+/*Responsive nosotros tablet*/
+
 @media only screen and (max-width: 960px) and (min-width: 451px) {  
     .main-container {
         background-image: url(imagenes/background.water.jpg);
@@ -79,78 +170,4 @@ h1{
         font-size: 30px;
         text-align: center;
 }
-}
-
-.main-item{
-    width: 300px;
-    height: 350px;
-    text-align: center;
-    margin: 60px;
-    border-radius: 30px;
-    
-}
-.div-container{
-    display: grid;
-    margin:auto;
-    width: 100%;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #E8DFCA;
-}
-
-p{
-    text-align: center;
-    color: black
-}
-
-.form-container{
-margin: 25px;
-
-}
-
-.button-1{
-    background-color: #E8DFCA;
-    color: black;
-    border: solid 1px black;
-}
-
-.a1{
-    color: black;
-}
-
-.main-conteiner2{
-    background-image: url(imagenes/background.water.jpg);
-    width: auto;
-    height: 900px;
-   
-}
-
-h2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    margin-top: 80px;
-    margin-left: 15px;
-}
-
-h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
-.label-container{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    text-decoration: underline;
-}
-
-.container-text{
-    border: solid black 1px;
-    height: 100px;
-    width: 500px;
 }
