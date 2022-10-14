@@ -1,0 +1,54 @@
+.main-container2{
+    background-image: url(imagenes/background.water.jpg);
+    width: auto;
+    height: 900px;
+    
+
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        
+
+    }
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        margin-top: 80px;
+        margin-left: 15px;
+
+    }
+    h3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+
+    }
+    div{
+        div{
+            .label-container{
+                font-family: 'Poppins', sans-serif;
+                font-size: 25px;
+                margin-left: 15px;
+                margin-bottom: 20px;
+                margin-top: 40px;
+                text-decoration: underline;
+
+            }
+            .container-text{
+                border: solid black 1px;
+                height: 100px;
+                width: 500px;
+
+            }
+        }
+    .button-1{
+            background-color: #E8DFCA;
+            color: black;
+            border: solid 1px black;
+
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "yicaraguaspaginaweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolespetter/primerproyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolespetter/primerproyecto/issues"
+  },
+  "homepage": "https://github.com/nicolespetter/primerproyecto#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}

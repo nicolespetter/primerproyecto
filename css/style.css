@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+footer section div div div .a1 {
+  color: black;
+}
+footer section div div div .a1 {
+  color: black;
+}
+footer section div div .icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.client {
+  color: black;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-image: url(../../imagenes/background.water.jpg);
+  width: auto;
+  height: auto;
+}
+.main-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+@media only screen and (max-width: 450px) {
+  .main-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 960px) and (min-width: 451px) {
+  .main-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+.main-container .p-container {
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+@media only screen and (max-width: 450px) {
+  .main-container .p-container {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 960px) and (min-width: 451px) {
+  .main-container .p-container {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .main-container {
+    background-image: url(../../imagenes/background.water.jpg);
+    width: auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 960px) and (min-width: 451px) {
+  .main-container {
+    background-image: url(../../imagenes/background.water.jpg);
+    width: auto;
+    height: 900px;
+  }
+}
+
+main h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+main .div-container {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #E8DFCA;
+}
+main .div-container div .main-item {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  margin: 60px;
+  border-radius: 30px;
+}
+main .div-container div p {
+  text-align: center;
+  color: black;
+}
+
+.main-container2 {
+  background-image: url(imagenes/background.water.jpg);
+  width: auto;
+  height: 900px;
+}
+.main-container2 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.main-container2 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 15px;
+}
+.main-container2 h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.main-container2 div div .label-container {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+.main-container2 div div .container-text {
+  border: solid black 1px;
+  height: 100px;
+  width: 500px;
+}
+.main-container2 div .button-1 {
+  background-color: #E8DFCA;
+  color: black;
+  border: solid 1px black;
+}
+
+.form-container {
+  margin: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
