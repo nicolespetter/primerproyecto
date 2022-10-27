@@ -1,7 +1,8 @@
 .main-container2{
-    background-image: url(imagenes/background.water.jpg);
+    background-image: url(../../imagenes/background.water.jpg);
     width: auto;
     height: 900px;
+    margin: 20px;
     
 
     h1{
@@ -13,9 +14,10 @@
     }
     h2{
         font-family: 'Poppins', sans-serif;
-        font-size: 30px;
-        margin-top: 80px;
-        margin-left: 15px;
+        margin: 100px;
+        padding: 20px;
+        font-size: 40px;
+
 
     }
     h3{

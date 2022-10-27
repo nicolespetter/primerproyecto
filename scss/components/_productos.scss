@@ -20,14 +20,45 @@ main{
                 text-align: center;
                 margin: 60px;
                 border-radius: 30px;
+
+                @media only screen and (max-width:450px){
+                    width: 400;
+                    height: 450;
+                    margin: 40px;
                 
+            }
+                @media only screen and (max-width: 960px) and (min-width: 451px){
+                    width: 600;
+                    height: 750;
+                    margin: 40px;
+
+            }
             }
             p{
                 text-align: center;
                 color: black;
 
             }
+
         }
+    @media only screen and (max-width:450px){
+   
+        display: grid;
+        margin:auto;
+        width: 100%;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+
+        
     }
-    
+
+    @media only screen and (max-width: 960px) and (min-width: 451px){
+        display: grid;
+        margin:auto;
+        width: 100%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    }
 }

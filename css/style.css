@@ -22,7 +22,7 @@ footer section div div .icon {
 }
 
 .main-container {
-  background-image: url(../../imagenes/background.water.jpg);
+  background-image: url(../../imagenes/backgroundwater.jpg);
   width: auto;
   height: auto;
 }
@@ -66,14 +66,14 @@ footer section div div .icon {
 }
 @media only screen and (max-width: 450px) {
   .main-container {
-    background-image: url(../../imagenes/background.water.jpg);
+    background-image: url(../../imagenes/backgroundwater.jpg);
     width: auto;
     height: auto;
   }
 }
 @media only screen and (max-width: 960px) and (min-width: 451px) {
   .main-container {
-    background-image: url(../../imagenes/background.water.jpg);
+    background-image: url(../../imagenes/backgroundwater.jpg);
     width: auto;
     height: 900px;
   }
@@ -99,15 +99,48 @@ main .div-container div .main-item {
   margin: 60px;
   border-radius: 30px;
 }
+@media only screen and (max-width: 450px) {
+  main .div-container div .main-item {
+    width: 400;
+    height: 450;
+    margin: 40px;
+  }
+}
+@media only screen and (max-width: 960px) and (min-width: 451px) {
+  main .div-container div .main-item {
+    width: 600;
+    height: 750;
+    margin: 40px;
+  }
+}
 main .div-container div p {
   text-align: center;
   color: black;
 }
+@media only screen and (max-width: 450px) {
+  main .div-container {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (max-width: 960px) and (min-width: 451px) {
+  main .div-container {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 .main-container2 {
-  background-image: url(imagenes/background.water.jpg);
+  background-image: url(../../imagenes/background.water.jpg);
   width: auto;
   height: 900px;
+  margin: 20px;
 }
 .main-container2 h1 {
   font-family: "Poppins", sans-serif;
@@ -116,9 +149,9 @@ main .div-container div p {
 }
 .main-container2 h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  margin-top: 80px;
-  margin-left: 15px;
+  margin: 100px;
+  padding: 20px;
+  font-size: 40px;
 }
 .main-container2 h3 {
   font-family: "Poppins", sans-serif;

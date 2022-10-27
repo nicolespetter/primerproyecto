@@ -1,5 +1,5 @@
 .main-container{
-    background-image: url(../../imagenes/background.water.jpg);
+    background-image: url(../../imagenes/backgroundwater.jpg);
     width: auto;
     height: auto;
     h1{
@@ -35,12 +35,12 @@
         }
     }
     @media only screen and (max-width:450px) {
-            background-image: url(../../imagenes/background.water.jpg);
+            background-image: url(../../imagenes/backgroundwater.jpg);
             width: auto;
             height: auto;
       }
     @media only screen and (max-width: 960px) and (min-width: 451px){
-            background-image: url(../../imagenes/background.water.jpg);
+            background-image: url(../../imagenes/backgroundwater.jpg);
             width: auto;
             height: 900px;
             }
